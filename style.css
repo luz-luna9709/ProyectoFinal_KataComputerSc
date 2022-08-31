@@ -1,0 +1,66 @@
+body {
+    background:black;
+    
+
+}
+header{
+    background-color:gold;
+    width: 100%;
+    height:9.5vh;
+    flex-direction:row;
+    display:flex;
+    justify-content: space-between;
+
+}
+nav{
+    align-items:center;
+    margin-left: 380px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+h1{
+color: brown;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-size:39px;
+}
+
+#container{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    background-color: darkgoldenrod;
+}
+
+.imagen{
+
+    align-items: center;
+    display:flex;
+    height: 100%;
+    width:5%;
+}
+
+.personajes{
+justify-content: center;
+/* background-color: #e9e9e9; */
+margin-left: 30px;
+margin-right: 5px;
+}
+img{
+    width: 110px;
+    height:140px;
+}
+.logo{
+    width: 11%;
+    height: 98%;
+    margin-left: 1px;
+    padding-top: 1px;
+}
+.gif{
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+  
