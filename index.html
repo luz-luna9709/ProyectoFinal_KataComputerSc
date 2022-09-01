@@ -9,18 +9,17 @@
     <script src="./swapi.js"></script>
    
 </head>
-<header>
-    <img class="logo" src="img/logo.png" alt="">
-    <nav>
-        <label for="">Consulta la informacion de un Personaje</label>
-        <input  id="input_character_name"  />
-        <button onclick="search_character_button_click()">Buscar</button>
-    </nav>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" onclick="limpiarFormulario()">
+             <input id="input_character_name" type="text" placeholder="Busca un Personaje" aria-label="Busca un personaje" autocomplete="on"  required/>
+             <button type="submit" onclick="search_character_button_click()"   >Buscar</button>
+        </nav>
 </header>
 <body>
     <h1>Star Wars</h1>
+    <p>Conoce las caracteristicas de tus personajes Favoritos</p>
     <section class="personajes">
-        <div class="Luke-Skywalker">
+        <div class="personaje">
             <img src="img/Luke_Skywalker.jpg" alt="">
             <img src="img/C-3PO.jpg" alt="">
             <img src="img/R2-D2.jpg" alt="">
@@ -36,11 +35,11 @@
     </section>
 
     <div id="container"></div> 
- <section class="gif">
+   <section class="gif">
     <div class="escenas">
         <img src="gif/4b52fb0d217449e506624d2e5358b87a.gif" alt="">
-        <img src="gif/500full.gif" alt="">
-        <img src="git/giphy.gif" alt="">
+        <img src="gif/w.gif" alt="">
+        <img src="gif/ed.gif" alt="">
         <img src="gif/ol1rssapekhmcbt7cjut.gif" alt="">
         <img src="gif/star-wars-abrams.gif" alt="">
         <img src="gif/star-wars-rey.gif" alt="">
@@ -51,23 +50,31 @@
 
     </div> 
     <div class="escenas">
-        <img src="gif/4b52fb0d217449e506624d2e5358b87a.gif" alt="">
-        <img src="gif/500full.gif" alt="">
-        <img src="git/giphy.gif" alt="">
-        <img src="gif/ol1rssapekhmcbt7cjut.gif" alt="">
-        <img src="gif/star-wars-abrams.gif" alt="">
-        <img src="gif/star-wars-rey.gif" alt="">
-        <img src="gif/star-wars-the-mandalorian.gif" alt="">
-        <img src="gif/starwars.gif" alt="">
-        <img src="gif/uo.gif" alt="">
-        <img src="gif/uuu.gif" alt="">
+        <img src="gif/lo.gif" alt="">
+        <img src="gif/star-wars-clone-wars.gif" alt="">
+        <img src="git/galactica.gif" alt="">
+        <img src="gif/r.gif" alt="">
+        <img src="gif/YODADRAMA.gif" alt="">
+        <img src="gif/Y82D.gif" alt="">
+        <img src="gif/T.gif" alt="">
+        <img src="gif/Y.gif" alt="">
+        <img src="gif/h.gif" alt="">
+        <img src="gif/galaxies.gif" alt="">
 
     </div>      
         
 
  </section>
-   
-
+ <section>
+ </section>
     <script src="./script.js"></script>
+
+
+
 </body>
+
+<footer>
+
+    <h3>Derechos Reservados @ Luna 2022</h3>
+</footer>
 </html>

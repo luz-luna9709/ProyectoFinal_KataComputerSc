@@ -30,3 +30,7 @@ function search_character(character_name) {
   
   }
 
+  function limpiarFormulario() {
+    document.getElementById("input_character_name").value="";
+  }
+
