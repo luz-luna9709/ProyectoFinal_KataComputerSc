@@ -17,6 +17,7 @@ function search_character_button_click(){
    
    </p>
     `
+    
 }
 
 function search_character(character_name) {
@@ -33,4 +34,3 @@ function search_character(character_name) {
   function limpiarFormulario() {
     document.getElementById("input_character_name").value="";
   }
-
